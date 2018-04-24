@@ -1,0 +1,49 @@
+# Node.gitignore https://github.com/github/gitignore/blob/master/Node.gitignore
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+dist
+.env
+.env.*
+!.env.*gpg
+keyrings/live/.gpg-v21-migrated
+keyrings/live/pubring.gpg
+keyrings/live/pubring.gpg~
+
+coverage
+
+# Sublime project files
+*.sublime-project
+*.sublime-workspace
+/.env.dev-rack
+
+src/**/*.css
+build/
+
+.DS_Store
+**.DS_Store
+*.vim
+
+
+# VScode files
+.vscode
